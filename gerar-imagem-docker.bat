@@ -1,0 +1,1 @@
+mvn clean compile package && docker build -f Dockerfile -t 12factor:v0.0.1 .
